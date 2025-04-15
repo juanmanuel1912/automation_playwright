@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 test.describe('Sauce Demo Login', () => {
-  test('successful login to dashboard', async ({ page }) => {
+  test('@smoke successful login to dashboard', async ({ page }) => {
     // Navigate to the website
     await page.goto('https://www.saucedemo.com/v1/');
     
